@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App01.MainPage">
+
+    <!--<StackLayout Spacing="0">
+        <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="FillAndExpand" BackgroundColor="DarkRed">
+            <Label Text="Bienvenue" HorizontalTextAlignment="Center" FontSize="32" FontAttributes="Italic" Margin="22" TextColor="White"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="FillAndExpand" BackgroundColor="DarkGreen">
+            <Label Text="Bienvenue" HorizontalTextAlignment="Center" FontSize="32" TextColor="Pink"/>
+            <Button Text="CoucoU" BackgroundColor="Black" TextColor="white" WidthRequest="55" Margin="30,10"/>
+        </StackLayout>
+    </StackLayout>-->
+    
+    <!--<AbsoluteLayout BackgroundColor="DarkGreen">
+        <BoxView BackgroundColor="red" AbsoluteLayout.LayoutBounds="0.5, 0.25, 200, 100" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <BoxView BackgroundColor="blue" AbsoluteLayout.LayoutBounds="0.1, 0.6, 200, 100" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <BoxView BackgroundColor="pink" AbsoluteLayout.LayoutBounds="1, 0, 0.50, 0.50" AbsoluteLayout.LayoutFlags="SizeProportional,PositionProportional"/>
+    </AbsoluteLayout>-->
+
+    <!--<Grid BackgroundColor="DarkGreen" ColumnSpacing="0" RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="55"/>
+        </Grid.ColumnDefinitions>
+        <BoxView BackgroundColor="blue" Grid.Column="2" Grid.Row="1"></BoxView>
+        <BoxView BackgroundColor="Yellow" Grid.Column="1"/>
+        <BoxView BackgroundColor="Orange" Grid.Row="1"/>
+    </Grid>-->
+
+   <ScrollView>
+      <StackLayout>
+         <Frame HorizontalOptions="Center">
+            <Label Text="totitable" FontSize="30"/>
+         </Frame>
+         <Button x:Name="biloute" Clicked="Biloute_Clicked" Text="toto"/>
+         <Label x:Name="fritte" Text=""></Label>
+         <StackLayout>
+                <Label Text="T" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="A" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="R" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="T" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="I" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="F" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="L" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="E" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="T" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="T" HorizontalOptions="Center" FontSize="99"/>
+                <Label Text="E" HorizontalOptions="Center" FontSize="99"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>
+    
+    
