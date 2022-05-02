@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App01.LesVues;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace App01
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MenuPage());
         }
 
         protected override void OnStart()

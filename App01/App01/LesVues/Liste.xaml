@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App01.LesVues.Liste">
+   <ContentPage.Content>
+      <ListView x:Name="maListView" RowHeight="100">
+         <ListView.ItemTemplate>
+            <DataTemplate>
+               <ViewCell>
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                     <Label Text="{Binding Nom}" HorizontalOptions="Start" TextColor="DarkGoldenrod"/>
+                     <Label Text="{Binding Description}" HorizontalOptions="Center" TextColor="DarkGoldenrod"/>
+                     <Label Text="{Binding Prix}" HorizontalOptions="End" TextColor="DarkGoldenrod"/>
+                  </StackLayout>
+               </ViewCell>
+
+            </DataTemplate>
+         </ListView.ItemTemplate>
+      </ListView>
+   </ContentPage.Content>
+</ContentPage>

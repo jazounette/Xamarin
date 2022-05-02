@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App01.LesVues.Menu" Title="Menu">
+   <ContentPage.Content>
+      <StackLayout Orientation="Vertical" 
+                     HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                     BackgroundColor="DarkCyan" Spacing="0">
+         <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+            <Image Source="lab_logo.png" HeightRequest="100" Margin="0,30,0,0"/>
+            <Label Text="Page Principale"
+                   FontSize="Large" FontAttributes="Bold"
+                   VerticalOptions="Center" Margin="0,10,0,20"
+                   HorizontalOptions="CenterAndExpand" TextColor="Wheat" />
+         </StackLayout>
+         <Image Source="lab_separator.png"/>
+         <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Button Text="lancer le compteur"
+                       Clicked="BouttonLancerCompteur"
+                    Style="{StaticResource boutonLabStyle}"/>
+            <Button Text="vers la liste"
+                       Clicked="BouttonLancerListe"
+                    Style="{StaticResource boutonLabStyle}"/>
+         </StackLayout>
+      </StackLayout>
+   </ContentPage.Content>
+</ContentPage>
