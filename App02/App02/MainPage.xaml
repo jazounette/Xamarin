@@ -30,8 +30,8 @@
             </Label.FormattedText>
          </Label>
 
-            <Label Text="⎯⎯⎯⎯⎯⎯  OÙ ⎯⎯⎯⎯⎯⎯" HorizontalTextAlignment="Center" FontSize="18" TextColor="Gray"/>
-         <Button Text="create new " BackgroundColor="DarkGreen" TextColor="white" Margin="20,10" BorderRadius="6"/>
+         <Label Text="⎯⎯⎯⎯⎯⎯  OÙ ⎯⎯⎯⎯⎯⎯" HorizontalTextAlignment="Center" FontSize="18" TextColor="Gray"/>
+         <Button Text="Créer un nouveau compte" BackgroundColor="DarkGreen" TextColor="white" Margin="20,10" BorderRadius="6"/>
         </StackLayout>
 
    </StackLayout>
