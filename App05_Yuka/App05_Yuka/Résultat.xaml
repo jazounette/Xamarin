@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App05_Yuka.Résultat">
+   <ScrollView>
+      <StackLayout>
+         <Label x:Name="ingrédient"/>
+         <Label x:Name="allergies"/>
+         
+         <Label x:Name="nutriscore"/>
+         <StackLayout Orientation="Horizontal" Spacing="0">
+            <Label x:Name="scoreA" Text="A" Style="{StaticResource scoràmoi}" BackgroundColor="DarkGreen"/>
+            <Label x:Name="scoreB" Text="B" Style="{StaticResource scoràmoi}" BackgroundColor="Green"/>
+            <Label x:Name="scoreC" Text="C" Style="{StaticResource scoràmoi}" BackgroundColor="Orange"/>
+            <Label x:Name="scoreD" Text="D" Style="{StaticResource scoràmoi}" BackgroundColor="DarkOrange"/>
+            <Label x:Name="scoreE" Text="E" Style="{StaticResource scoràmoi}" BackgroundColor="Red"/>
+         </StackLayout>
+         
+         <Label x:Name="produit"/>
+         <Label x:Name="codeNRA"/>
+         <Label x:Name="fabriquant"/>
+         <Label x:Name="quantité"/>
+         
+         <Button Text="SCANNER" Clicked="GotoMain"/>
+         <Button Text="DÉCONNEXION"/>
+         <Label x:Name="debug"/>
+      </StackLayout>
+      
+   </ScrollView>
+</ContentPage>

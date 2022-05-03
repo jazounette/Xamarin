@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App05_Yuka.MainPage">
+
+    <StackLayout>
+      <Label Text="Saisi manuelle"/>
+      <Entry x:Name="codeEAN" Keyboard="Numeric" Placeholder="EAN à saisir" ClearButtonVisibility="WhileEditing"/>
+      <Button Text="VALIDATION" Clicked="GotoRésultat"/>
+      <Button Text="DÉCONNEXION"/>
+      <Label x:Name="debug" BackgroundColor="black" TextColor="White" FontSize="18"/>
+      <Editor x:Name="listcode" AutoSize="TextChanges" FontSize="16"/>
+   </StackLayout>
+
+</ContentPage>

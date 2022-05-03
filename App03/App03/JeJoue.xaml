@@ -7,7 +7,8 @@
          <Label Text="À TOI DE JOUER" Style="{StaticResource titràmoi}"/>
          <Label Text="Devine le nombre magique&#10;compris entre 1 et 100"
                 HorizontalOptions="Center" FontSize="22" FontAttributes="Bold" TextColor="black" HorizontalTextAlignment="Center"/>
-         <Entry x:Name="tartiflette" Placeholder="???????"
+         <Entry x:Name="tartiflette" Completed="TartiCompleted" 
+                Placeholder="???????" Keyboard="Numeric"
                 HorizontalOptions="Center" WidthRequest="200" BackgroundColor="White" FontSize="30" HorizontalTextAlignment="Center"/>
          <Button Text="Valider" Clicked="BoutValider" Style="{StaticResource boutàmoi}"/>
          <Label x:Name="resultat" BackgroundColor="Black" TextColor="white" FontSize="18"/>
